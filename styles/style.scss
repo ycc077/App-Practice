@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.apparea {
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.textarea {
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.textplace {
+  flex-grow: 1;
+  border: none;
+  background-color: #f0f4f8;
+  padding: 10px 15px;
+  outline: none;
+}
+.pbutton {
+  background-color: #666;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.textlist {
+  list-style-type: none;
+  padding: 0;
+  li {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+.textlist label {
+  flex-grow: 1;
+}
+.checkicon {
+  margin-right: 15px;
+}
+.trashicon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
